@@ -1,0 +1,147 @@
+h1 {
+    font-style: oblique;
+    font-family: fantasy;
+    font-size: 2.5em;
+    text-align: center;
+    color: black;
+    letter-spacing: 2px;
+    height: 45px;
+
+}
+
+.timer {
+    background-color: black;
+    width: 200px;
+    height: 31px;
+    font-size: 1.5em;
+    font-family: fantasy;
+    color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+}
+
+body {
+    background-color: rgb(202, 202, 202);
+}
+
+.board td {
+    margin: auto;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    transition: 0.5s;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+.board td:hover {
+    background-color: grey;
+    color: rgb(255, 255, 255);
+}
+
+table {
+    background-color: rgb(116, 130, 136);
+    border-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    transition: 1s;
+}
+
+.buttons {
+    padding: 3px;
+    width: fit-content;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    margin-top: 10px;
+    cursor: pointer;
+    font-family: fantasy;
+    font-size: 1.2em;
+}
+
+.smiley-play {
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    left: 49.2%;
+}
+
+.smiley-Win {
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    left: 49.2%;
+}
+
+.smiley-lost {
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    left: 49.2%;
+}
+
+.cell {
+    display: table-cell;
+    font-size: 15px;
+    padding: 5px;
+    height: 20px;
+    width: 20px;
+    background-color: #c4c8c8;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.hidden {
+    background-color: #091720;
+    height: 20px;
+    width: 20px;
+}
+
+.lives {
+    background-color: black;
+    width: 80px;
+    height: 23px;
+    font-size: 1.0em;
+    font-family: fantasy;
+    color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+
+.hints {
+    background-color: black;
+    width: 80px;
+    height: 23px;
+    font-size: 1.0em;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-color: black
+}
+
+.safe-click {
+    background-color: black;
+    width: 100px;
+    height: 24px;
+    font-size: 1.0em;
+    font-family: fantasy;
+    color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+}

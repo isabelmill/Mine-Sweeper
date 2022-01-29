@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minesweeper game</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <h1>Minesweeper Game</h1>
+    <div class="timer">
+        <p>Timer: <label id="minutes">00</label>:<label id="seconds">00</label></p>
+    </div>
+    <div class="lives">❤️❤️❤️</div>
+    <div onclick="safeClick()" class="safe-click">Safe Clicks: 3</div>
+    <!-- <div onclick=" revealingCells()" class=" hints">💡💡💡</div> -->
+    <div class="buttons">
+        <button onclick="levelChange(4,2)" class="button1">Basic</button>
+        <button onclick="levelChange(8,12)" class="button2">Hard</button>
+        <button onclick="levelChange(12,30)" class="button3">Extreme</button>
+    </div>
+    <div class="imgs">
+        <div onclick="restart()" class="smiley-play">😀 </div>
+        <div onclick="restart()" class="smiley-Win">🤩 </div>
+        <div onclick="restart()" class="smiley-lost">🤯 </div>
+    </div>
+    <table border="1" cellpadding="10">
+        <tbody class="board"></tbody>
+    </table>
+    <script src="js/utils.js"></script>
+    <script src="js/game.js"></script>
+</body>
+
+</html>
